@@ -33,8 +33,9 @@ function setup(){
 
 
 function draw(){
-    // background(136,16,16);
-    background(0);
+    //background is optional I am using red background
+    background(136,16,16);
+    //background(0);
     
     //This loop shows stars
     for (let s of stars) {
