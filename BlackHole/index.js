@@ -27,7 +27,7 @@ function setup(){
     starx = random(width);
     stary = random(height);
 
-    for (let y = 1; y <= 4; y+= 1) {
+    for (let y = 1; y <= 1; y+= 1) {
         blackholes.push(new Blackhole(random(width),random(height),random(1200)+1200));
         
     }
